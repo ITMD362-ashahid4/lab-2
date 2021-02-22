@@ -12,23 +12,22 @@ div {
 #address, #phone, #birth, #submit {
   padding: 5px;
 }
-#submit{
+#submit {
   text-align: center;
 }
 
-@media screen and (min-width: 330px){
-#address, #phone{
-  width: 90%;
+@media screen and (min-width: 330px) {
+  #address, #phone {
+    width: 90%;
+  }
 }
-
-}
-@media screen and (min-width: 500px){
-  #address, #phone{
+@media screen and (min-width: 500px) {
+  #address, #phone {
     width: 55%;
   }
 }
-@media screen and (min-width: 900px){
-  #address, #phone{
+@media screen and (min-width: 900px) {
+  #address, #phone {
     width: 35%;
   }
 }
